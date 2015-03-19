@@ -1,0 +1,16 @@
+{
+"items":[
+	{
+		"hora": "16:00",
+		"socio": "alberto",
+		"contenido": "Hola soy nuevo en esto",
+		"imagen": "http://upload.wikimedia.org/wikipedia/commons/c/c1/000017%D0%B6%D0%B4.jpg"
+	},
+	{
+		"hora": "16:20",
+		"socio": "alberto",
+		"contenido": "Habeis visto el partido??",
+		"imagen": "http://upload.wikimedia.org/wikipedia/commons/c/c1/000017%D0%B6%D0%B4.jpg"
+	}
+]
+}

@@ -1,0 +1,22 @@
+#cabecera{
+	background-color: blue;
+	height: 70px;
+	text-align: left;
+	color: white;
+}
+
+.mensajes{
+	border-top: 1px solid black;
+}
+
+.hora{
+	text-align: right;
+}
+
+.col-md-10{
+	text-align: right;
+}
+
+#imagen{
+	padding-top: 10px;
+}

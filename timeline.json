@@ -1,0 +1,22 @@
+{
+"items":[
+	{
+		"socio": "pepe",
+		"imagen": "http://upload.wikimedia.org/wikipedia/commons/2/2e/Moi%2C_moche_et_méchant_2%2C_Minion_au_Paquier_d%27Annecy.jpg",
+		"hora": "15:00",
+		"contenido": "Hola"
+	},
+	{
+		"socio": "luis",
+		"imagen": "http://upload.wikimedia.org/wikipedia/commons/2/20/WoodyWoodpecker-PantryPanic1.png",
+		"hora": "15:20",
+		"contenido": "Hola que tal"
+	},
+	{
+		"socio":"jose",
+		"imagen": "http://upload.wikimedia.org/wikipedia/commons/2/26/Rat-Man_logo.png",
+		"hora": "15:40",
+		"contenido": "Hola que tal estas"
+	}
+]
+}
