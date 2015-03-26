@@ -17,17 +17,17 @@ $(document).ready(function() {
       $("#actualizar").hide();  
   });
   update.done(function(){
-    $("#actualizar").click(function(){
+    //$("#actualizar").click(function(){
       var mensajes = $("#tabs-1").html();
       for(var i=0;i<sociosud.items.length;i++){
         var nombre = sociosud.items[i].socio;
-        var imagen = "<img src="+ sociostl.items[i].imagen +" style='width: 30px; height: 30px;'>";
+        var imagen = "<img src="+ sociosud.items[i].imagen +" style='width: 30px; height: 30px;'>";
         var texto = sociosud.items[i].contenido;
         var hora = sociosud.items[i].hora;
         mensajes += "<div class='mensajes'><h3>" + imagen + " " + nombre + "</h3><p>" + texto + "</p><p class='hora'>" + hora + "</p></div>";
       }
-      document.getElementById("#tabs-1").innerHTML = mensajes;
-    });
+      document.getElementById("tabs-1").innerHTML = mensajes;
+    //});
   });
 
   $.getJSON("timeline.json",function(datos){
